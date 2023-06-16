@@ -1,0 +1,7 @@
+textarea:read-only {
+    background-color: rgba(207, 207, 207, 0.164);
+}
+
+form > div {
+    margin-bottom: 10px
+}

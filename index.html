@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Degree Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div style="margin-left: 20px">
+        <p>
+            Masukkan suhu derajat Celcius (&deg;C) ke kotak di bawah, lalu klik tombol konversi untuk mendapatkan hasil konversi dalam bentuk fahrenheit (&deg;F).
+        </p>
+        <form id="convert" action="javascript:void(0)">
+            <div>
+                <div>
+                    <label>Celcius (&deg;C):</label>
+                </div>
+                <textarea name="celcius" id="celcius" cols="30" rows="5" required></textarea>
+            </div>
+            <div>
+                <button type="submit" id="convert">
+                    Konversi
+                </button>
+                <button type="button" id="reset">
+                    Cancel
+                </button>
+            </div>
+        </form>
+        <div id="result" style="margin-top: 10px">
+            <div>
+                <label>Celcius (&deg;C):</label>
+            </div>
+            <textarea name="fahrenheit" id="fahrenheit" cols="30" rows="5" readonly></textarea>
+        </div>
+        <div id="calculation" style="margin-top: 10px">
+            <div>
+                <label>Cara Kalkulasi:</label>
+            </div>
+            <textarea name="calc-res" id="calc-res" cols="30" rows="5" readonly></textarea>
+        </div>
+    </div>
+</body>
+</html>
